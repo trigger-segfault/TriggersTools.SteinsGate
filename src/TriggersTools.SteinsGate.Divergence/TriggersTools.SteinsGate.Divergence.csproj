@@ -1,0 +1,112 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TriggersTools.SteinsGate</RootNamespace>
+    <AssemblyName>TriggersTools.SteinsGate.Divergence</AssemblyName>
+    <Description>A library for drawing Steins;Gate-style Divergence Meters.</Description>
+    <Authors>Robert Jordan</Authors>
+    <PackageTags>Steins;Gate, fun, drawing, divergence, meter</PackageTags>
+    <RepositoryUrl>https://github.com/trigger-death/TriggersTools.SteinsGate</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageIconUrl>https://raw.githubusercontent.com/trigger-death/TriggersTools.SteinsGate/master/src/TriggersTools.SteinsGate.Divergence/NugetIcon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/trigger-death/TriggersTools.SteinsGate</PackageProjectUrl>
+    <Copyright>Copyright © Robert Jordan 2018</Copyright>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/trigger-death/TriggersTools.SteinsGate/blob/master/License.md</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Large\NixieAuthentic.png" />
+    <None Remove="Resources\Large\NixieFontA.png" />
+    <None Remove="Resources\Large\NixieFontB.png" />
+    <None Remove="Resources\Large\NixieTubeLeft.png" />
+    <None Remove="Resources\Large\NixieTubeMid.png" />
+    <None Remove="Resources\Large\NixieTubeRight.png" />
+    <None Remove="Resources\Large\NixieTubeSingle.png" />
+    <None Remove="Resources\Medium\NixieAuthentic.png" />
+    <None Remove="Resources\Medium\NixieFontA.png" />
+    <None Remove="Resources\Medium\NixieFontB.png" />
+    <None Remove="Resources\Medium\NixieTubeLeft.png" />
+    <None Remove="Resources\Medium\NixieTubeMid.png" />
+    <None Remove="Resources\Medium\NixieTubeRight.png" />
+    <None Remove="Resources\Medium\NixieTubeSingle.png" />
+    <None Remove="Resources\Small\NixieAuthentic.png" />
+    <None Remove="Resources\Small\NixieFontA.png" />
+    <None Remove="Resources\Small\NixieFontB.png" />
+    <None Remove="Resources\Small\NixieTubeLeft.png" />
+    <None Remove="Resources\Small\NixieTubeMid.png" />
+    <None Remove="Resources\Small\NixieTubeRight.png" />
+    <None Remove="Resources\Small\NixieTubeSingle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Large\NixieAuthentic.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Large\NixieFontA.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Large\NixieFontB.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Large\NixieTubeLeft.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Large\NixieTubeMid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Large\NixieTubeRight.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Large\NixieTubeSingle.png" />
+    <EmbeddedResource Include="Resources\Medium\NixieAuthentic.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Medium\NixieFontA.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Medium\NixieFontB.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Medium\NixieTubeLeft.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Medium\NixieTubeMid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Medium\NixieTubeRight.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Medium\NixieTubeSingle.png" />
+    <EmbeddedResource Include="Resources\Small\NixieAuthentic.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Small\NixieFontA.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Small\NixieFontB.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Small\NixieTubeLeft.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Small\NixieTubeMid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Small\NixieTubeRight.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Small\NixieTubeSingle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
