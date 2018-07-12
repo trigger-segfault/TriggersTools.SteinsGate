@@ -67,7 +67,7 @@ using (Bitmap bmp = Divergence.Draw(text, args))
 
 ## Escaping
 
-In many scenarios, the user may not be able to pass actual new line characters if not done programmatically. `DivergenceArgs.Escape` uses the `DivergenceEscape` enum to allow 3 choices: `None` <sup>(Don't escape anything)</sup>, `NewLines` <sup>(Only escape \r and \n)</sup>, and `All` <sup>(Escape any character after '\')</sup>.
+In many scenarios, the user may not be able to pass actual new line characters if not done programmatically. `DivergenceArgs.Escape` uses the `DivergenceEscape` enum to allow 3 choices: `None` <sup>(Don't escape anything)</sup>, `NewLines` <sup>(Only escape \r and \n)</sup>, and `All` <sup>(Escape any character after '\\')</sup>.
 
 An example would be in the command line: `divergence.exe "#1\n#2"`. (Note: No command line program exists for this library at the moment.)
 
