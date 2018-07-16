@@ -8,6 +8,11 @@ A .NET Standard library for generating divergence meter displays. It may contain
 # Divergence ![AppIcon](https://i.imgur.com/D2U0KkP.png)
 =======
 # Divergence ![AppIcon](https://i.imgur.com/Ia9zq9O.png)
+
+[![NuGet Version](https://img.shields.io/nuget/v/TriggersTools.SteinsGate.Divergence.svg?style=flat)](https://www.nuget.org/packages/TriggersTools.SteinsGate.Divergence/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/TriggersTools.SteinsGate.Divergence.svg?style=flat)](https://www.nuget.org/packages/TriggersTools.SteinsGate.Divergence/)
+[![Creation Date](https://img.shields.io/badge/created-june%202018-A642FF.svg?style=flat)](https://github.com/trigger-death/TerrariaMidiPlayer/commit/2a6570de78f8c2fd8816b8ba9380614e1badec0f)
+
 >>>>>>> 75940969318f3e6ce47814334d81e1a913641e17
 The only existing feature in the library at the moment. Allows you to programatically draw [Divergence Meter](http://steins-gate.wikia.com/wiki/Divergence_Meter) nixie tubes from the visual novel & anime: [Steins;Gate](https://vndb.org/v2002).
 
@@ -66,6 +71,7 @@ using (Bitmap bmp = Divergence.Draw(text, args))
 
 ## Escaping
 
+In many scenarios, the user may not be able to pass actual new line characters if not done programmatically. `DivergenceArgs.Escape` uses the `DivergenceEscape` enum to allow 3 choices: `None` <sup>(Don't escape anything)</sup>, `NewLines` <sup>(Only escape \r and \n)</sup>, and `All` <sup>(Escape any character after '\\')</sup>.
 
 An example would be in the command line: `divergence.exe "#1\n#2"`. (Note: No command line program exists for this library at the moment.)
 
