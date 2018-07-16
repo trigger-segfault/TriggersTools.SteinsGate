@@ -24,6 +24,9 @@ bld/
 [Oo]bj/
 [Ll]og/
 
+[Pp]ublish*.bat
+[Pp]ublish*.txt
+
 # Test CG
 EV_Z02A.PNG
 
