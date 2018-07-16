@@ -1,24 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <RootNamespace>TriggersTools.SteinsGate</RootNamespace>
     <AssemblyName>TriggersTools.SteinsGate.Divergence</AssemblyName>
     <Description>A library for drawing Steins;Gate-style Divergence Meters.</Description>
     <Authors>Robert Jordan</Authors>
     <PackageTags>Steins;Gate, fun, drawing, divergence, meter</PackageTags>
     <RepositoryUrl>https://github.com/trigger-death/TriggersTools.SteinsGate</RepositoryUrl>
-    <RepositoryType>GitHub</RepositoryType>
-    <PackageIconUrl>https://raw.githubusercontent.com/trigger-death/TriggersTools.SteinsGate/master/src/TriggersTools.SteinsGate.Divergence/NugetIcon.png</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIconUrl>https://raw.githubusercontent.com/trigger-death/TriggersTools.SteinsGate/master/src/TriggersTools.SteinsGate.Divergence/NuGetIcon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/trigger-death/TriggersTools.SteinsGate</PackageProjectUrl>
     <Copyright>Copyright © Robert Jordan 2018</Copyright>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>Add .NET Framework v4.6.1 target.
+Fixed broken Icon URL casing and corrected repository type.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>https://github.com/trigger-death/TriggersTools.SteinsGate/blob/master/License.md</PackageLicenseUrl>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\..\bin\</OutputPath>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

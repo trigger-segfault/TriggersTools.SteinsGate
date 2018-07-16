@@ -96,7 +96,9 @@ namespace TriggersTools.SteinsGate.Divergence.Generator {
 
 		public static void OpenInMSPaint(this Bitmap bitmap) {
 			bitmap.Save("image.png");
+#if NETCOREAPP2_0
 			if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) {
+#endif
 				ProcessStartInfo start = new ProcessStartInfo {
 					UseShellExecute = false,
 					FileName = "mspaint",
@@ -108,7 +110,9 @@ namespace TriggersTools.SteinsGate.Divergence.Generator {
 					File.Delete("image.png");
 				}
 				catch { }
+#if NETCOREAPP2_0
 			}
+#endif
 		}
 	}
 }
