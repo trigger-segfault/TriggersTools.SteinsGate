@@ -4,7 +4,7 @@ A .NET Standard library for generating divergence meter displays. It may contain
 
 ***
 
-# Divergence ![AppIcon](https://i.imgur.com/D2U0KkP.png)
+# Divergence ![AppIcon](https://i.imgur.com/ie95bi3.png)
 
 [![NuGet Version](https://img.shields.io/nuget/v/TriggersTools.SteinsGate.Divergence.svg?style=flat)](https://www.nuget.org/packages/TriggersTools.SteinsGate.Divergence/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/TriggersTools.SteinsGate.Divergence.svg?style=flat)](https://www.nuget.org/packages/TriggersTools.SteinsGate.Divergence/)
