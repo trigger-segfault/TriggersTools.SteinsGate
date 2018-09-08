@@ -8,7 +8,7 @@ A .NET Standard library for generating divergence meter displays. It may contain
 
 [![NuGet Version](https://img.shields.io/nuget/v/TriggersTools.SteinsGate.Divergence.svg?style=flat)](https://www.nuget.org/packages/TriggersTools.SteinsGate.Divergence/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/TriggersTools.SteinsGate.Divergence.svg?style=flat)](https://www.nuget.org/packages/TriggersTools.SteinsGate.Divergence/)
-[![Creation Date](https://img.shields.io/badge/created-june%202018-A642FF.svg?style=flat)](https://github.com/trigger-death/TerrariaMidiPlayer/commit/2a6570de78f8c2fd8816b8ba9380614e1badec0f)
+[![Creation Date](https://img.shields.io/badge/created-june%202018-A642FF.svg?style=flat)](https://github.com/trigger-death/TriggersTools.SteinsGate/commit/e1f8a6657c45ef51beec4babcd89226ce4874686)
 
 The only existing feature in the library at the moment. Allows you to programatically draw [Divergence Meter](http://steins-gate.wikia.com/wiki/Divergence_Meter) nixie tubes from the visual novel & anime: [Steins;Gate](https://vndb.org/v2002).
 
