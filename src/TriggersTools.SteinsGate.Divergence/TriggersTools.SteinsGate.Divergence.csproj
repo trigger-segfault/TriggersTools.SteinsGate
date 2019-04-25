@@ -19,6 +19,7 @@ Fixed broken Icon URL casing and corrected repository type.</PackageReleaseNotes
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <FileVersion>1.0.1.0</FileVersion>
     <Version>1.0.1</Version>
+    <Company>Trigger's Tools &amp; Games</Company>
   </PropertyGroup>
 
   <ItemGroup>
