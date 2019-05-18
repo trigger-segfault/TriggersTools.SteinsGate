@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
@@ -11,9 +11,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageIconUrl>https://raw.githubusercontent.com/trigger-death/TriggersTools.SteinsGate/master/src/TriggersTools.SteinsGate.Divergence/NuGetIcon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/trigger-death/TriggersTools.SteinsGate</PackageProjectUrl>
-    <Copyright>Copyright © Robert Jordan 2018</Copyright>
-    <PackageReleaseNotes>Add .NET Framework v4.6.1 target.
-Fixed broken Icon URL casing and corrected repository type.</PackageReleaseNotes>
+    <Copyright>Copyright © Robert Jordan $([System.DateTime]::Now.Year)</Copyright>
+    <PackageReleaseNotes></PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>https://github.com/trigger-death/TriggersTools.SteinsGate/blob/master/License.md</PackageLicenseUrl>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
