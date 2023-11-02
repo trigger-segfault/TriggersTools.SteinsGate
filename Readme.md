@@ -1,5 +1,9 @@
 # TriggersTools.SteinsGate
 
+A [web tool](https://trigger-testing.github.io/pwa-examples/divergence-meter/) is also available for drawing divergence meters without needing to download a program.
+
+***
+
 A .NET Standard library for generating divergence meter displays. It may contain other Steins;Gate features in the future. Drawing is done using the .NET Standard library `System.Drawing.Common`, which is available as a Nuget package.
 
 [![Discord](https://img.shields.io/discord/436949335947870238.svg?style=flat&logo=discord&label=chat&colorB=7389DC&link=https://discord.gg/vB7jUbY)](https://discord.gg/vB7jUbY)
